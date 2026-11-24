@@ -1,0 +1,23 @@
+# Cinerecom - Royal Green and Gold theme (UI/UX redesign).
+# Only appearance is configured here; no behaviour of the application depends on this file.
+[theme]
+base = "dark"
+primaryColor = "#D4AF37"
+backgroundColor = "#06281A"
+secondaryBackgroundColor = "#0C3D27"
+textColor = "#F4EBD0"
+linkColor = "#ECD58F"
+borderColor = "#8A7430"
+font = "sans-serif"
+headingFont = "serif"
+baseRadius = "0.7rem"
+buttonRadius = "0.7rem"
+showWidgetBorder = true
+# Streamlit draws st.info in blue: it is re-coloured in gold to stay inside the palette.
+blueColor = "#D4AF37"
+blueBackgroundColor = "rgba(212, 175, 55, 0.14)"
+blueTextColor = "#F4EBD0"
+
+[client]
+# The Streamlit toolbar is replaced by the application's own navigation bar.
+toolbarMode = "minimal"
